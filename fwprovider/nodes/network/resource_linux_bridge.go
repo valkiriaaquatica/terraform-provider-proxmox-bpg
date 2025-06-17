@@ -343,7 +343,7 @@ func (r *linuxBridgeResource) read(ctx context.Context, model *linuxBridgeResour
 
 		return true
 	}
-	return true
+	return false
 }
 
 // Read reads a Linux Bridge interface.
